@@ -13,3 +13,42 @@
 .yellow{
     color:yellow
 }
+
+
+.schedule{
+    font-size: 24px;
+    color: black;
+}
+
+.monday-item{
+    color: rgb(41, 90, 133);
+    font-size: 23px;
+}
+.tuesday-item{
+    color: coral;
+    font-size: 23px;
+}
+.wednesday-item{
+    color: blueviolet;
+    font-size:23px;
+}
+.thursday-item{
+    color:aquamarine;
+    font-size: 23px;
+}
+.friday-item{
+    color:deeppink;
+    font-size:23px;
+}
+
+
+.wednesday-item:ntd-child(even){
+  background-color: rgba(0, 255, 170, 0.358);
+}
+.monday-item:ntd-child(3n){
+    background-color: blue;
+}
+
+.day-name:nth-child(5) {
+  background-color: rgb(198, 165, 2);
+}
