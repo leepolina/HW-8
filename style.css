@@ -42,7 +42,7 @@
 }
 
 
-.wednesday-item:ntd-child(even){
+/*.wednesday-item:ntd-child(even){
   background-color: rgba(0, 255, 170, 0.358);
 }
 .monday-item:ntd-child(3n){
@@ -51,4 +51,11 @@
 
 .day-name:nth-child(5) {
   background-color: rgb(198, 165, 2);
+}*/
+
+.lesson-list1:hover{
+    background-color: blue;
+}
+.lessonlist2:focus{
+    background-color: brown;
 }
